@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  margin: 20px;
+  /*position: fixed;*/
+}
+
+/*.search-results {
+  margin-top: 100px;
+}*/
+
+li {
+  margin: auto;
+  list-style: none;
+  width: 300px;
+}
+
+.hidden {
+  display: none;
+}
