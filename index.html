@@ -2,10 +2,15 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Down the Rabbit Tube</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="grid.css">
 </head>
+
 <body>
   <header>
     <h1>Fall down the Rabbit Tube</h1>
@@ -17,13 +22,12 @@
   </header>
 
   <main>
-    <div class="search-results js-search-results">
-        <!-- results will populate here -->
+    <div class="search-results js-search-results row">
+        <!-- results will populate here in format below -->
     </div>
-    <nav>
-      <button class="hidden">Next</button>
-      <button class="hidden">Prev</button>
-    </nav>
+    <ul class="pagination-footer hidden">
+      <li class="pagination-link"><a href="#result-page-1">1</a></li>
+    </ul>
   </main>
 
   <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
